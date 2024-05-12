@@ -9,12 +9,7 @@ const Header = () => {
   return (
     <div className={"header"}>
       <Button onClick={onClose}>Close</Button>
-      <span className={"username"}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet
-        sint labore temporibus illum omnis quisquam, autem corporis quia
-        laboriosam numquam sed nisi porro libero assumenda dolorum, mollitia
-        nobis nemo! Username: {user?.username}
-      </span>
+      <span className={"username"}>Username: {user?.username}</span>
     </div>
   );
 };
